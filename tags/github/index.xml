@@ -6,10 +6,20 @@
     <description>Recent content in GitHub on cupsster&#39;s rumble in the digital jungle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2019 16:17:11 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 12:30:15 +0200</lastBuildDate>
     
 	<atom:link href="https://cupsster.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo: Making Simple Static Site</title>
+      <link>https://cupsster.github.io/posts/hugo-making-simple-static-site/</link>
+      <pubDate>Wed, 21 Aug 2019 12:30:15 +0200</pubDate>
+      
+      <guid>https://cupsster.github.io/posts/hugo-making-simple-static-site/</guid>
+      <description>Introduction In previous post I mentioned that this blog is powered by GitHub Pages and Hugo static site generator. So let&amp;rsquo;s see how easy it is to make this running and some handy info about how make it on Free GitHub services.
+There are many popular static site generators out there like Next.js, Jekyll, Gatsby, Hexo to name a few but upon closer examination I decided to go with Hugo becuse I like hassle free aspect of it!</description>
+    </item>
     
     <item>
       <title>Hello World</title>

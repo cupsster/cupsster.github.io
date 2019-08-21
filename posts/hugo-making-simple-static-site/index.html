@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Hugo: Making Simple Static Site // cupsster&#39;s rumble in the digital jungle</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.57.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Peter Matejovsky" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://cupsster.github.io/css/main.min.59023e5fd38d6ecb0e1dfbb295077c3c67e00e3b9eb3feaf34b5a5e6b332897a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo: Making Simple Static Site"/>
+<meta name="twitter:description" content="Introduction In previous post I mentioned that this blog is powered by GitHub Pages and Hugo static site generator. So let&rsquo;s see how easy it is to make this running and some handy info about how make it on Free GitHub services.
+There are many popular static site generators out there like Next.js, Jekyll, Gatsby, Hexo to name a few but upon closer examination I decided to go with Hugo becuse I like hassle free aspect of it!"/>
+
+    <meta property="og:title" content="Hugo: Making Simple Static Site" />
+<meta property="og:description" content="Introduction In previous post I mentioned that this blog is powered by GitHub Pages and Hugo static site generator. So let&rsquo;s see how easy it is to make this running and some handy info about how make it on Free GitHub services.
+There are many popular static site generators out there like Next.js, Jekyll, Gatsby, Hexo to name a few but upon closer examination I decided to go with Hugo becuse I like hassle free aspect of it!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cupsster.github.io/posts/hugo-making-simple-static-site/" />
+<meta property="article:published_time" content="2019-08-21T12:30:15+02:00" />
+<meta property="article:modified_time" content="2019-08-21T12:30:15+02:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://cupsster.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="Peter Matejovsky" /></a>
+      <h1>cupsster&#39;s rumble in the digital jungle</h1>
+      <p>My rumble in digital jungle.</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/cupsster"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/cupsster"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://facebook.com/peter.matejovsky"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Hugo: Making Simple Static Site</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Aug 21, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          8 min read
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+          <a class="tag" href="https://cupsster.github.io/tags/blog/">blog</a><a class="tag" href="https://cupsster.github.io/tags/github/">GitHub</a><a class="tag" href="https://cupsster.github.io/tags/hugo/">Hugo</a></div></div>
+    </header>
+    <div class="post-content">
+      
+
+<h3 id="introduction">Introduction</h3>
+
+<p>In previous post I mentioned that this blog is powered by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://gohugo.io/">Hugo</a> static site generator. So let&rsquo;s see how easy it is to make this running and some handy info about how make it on Free GitHub services.<br />
+There are <a href="https://www.staticgen.com/">many</a> popular static site generators out there like Next.js, Jekyll, Gatsby, Hexo to name a few but upon closer examination I decided to go with <strong>Hugo</strong> becuse I like hassle free aspect of it!</p>
+
+<h3 id="hugo">Hugo</h3>
+
+<p>I decided to with Hugo Extended x64 version which I downloaded from <a href="https://github.com/gohugoio/hugo/releases">GitHub</a> releases page. Save downloaded zip file somewhere on your system and extract it.<br />
+Now it is time to create our folder structure where we will be building our future site and Hugo framework can operate. First decide where you will be keeping your files locally. I went for <code>D:\HUGO</code> as base of my folder structure but off course you can place it anywhere it suits you.<br />
+Insde create two folers <code>bin</code> and <code>Sites</code>. Your directory structure should look like this:</p>
+
+<pre><code>Directory of D:\HUGO
+
+08/20/2019  08:59 PM    &lt;DIR&gt;          .
+08/20/2019  08:59 PM    &lt;DIR&gt;          ..
+08/20/2019  03:25 PM    &lt;DIR&gt;          bin
+08/20/2019  08:59 PM    &lt;DIR&gt;          Sites
+</code></pre>
+
+<p><code>bin</code> folder will be used to house our downloaded executable and <code>Sites</code> folder is where our data for websites will live and this function as expected folder structure for hassle free operation. Now move all files from downloaded archive to <code>bin</code> folder.<br />
+You might want to rename EXE file from archive to somethign more friendly like <code>hugo.exe</code> to save on typing in future!<br />
+Your <code>bin</code> directory shoul now look like this:</p>
+
+<pre><code>Directory of D:\HUGO\bin
+
+08/20/2019  03:25 PM    &lt;DIR&gt;          .
+08/20/2019  03:25 PM    &lt;DIR&gt;          ..
+08/17/2019  07:56 PM        92,424,710 hugo.exe
+08/17/2019  07:42 PM            11,357 LICENSE
+08/17/2019  07:42 PM            11,235 README.md
+</code></pre>
+
+<p>Now it is good time to add Hugo executable to out PATH so we can launch commands easily. If you in some time in future decide to change location of <code>hugo.exe</code> on your system, you might want to repeat this step or edit your PATH variable.<br />
+Now open terminal and navigate to <code>bin</code> folder by typing:</p>
+
+<pre><code>cd D:\HUGO\bin
+</code></pre>
+
+<p>We are going to add <code>hugo.exe</code> to our PATH environment variable so system know where to search for it when asked. Copy-paste this code and hit Enter.</p>
+
+<pre><code>set PATH=%PATH%;D:\HUGO\bin
+</code></pre>
+
+<p>Mow you should be all set to use Hugo. You can run it in console and explore various parameters you can set up and run it with. You can verify that it works correctly by running:</p>
+
+<pre><code>hugo version
+</code></pre>
+
+<p>For their detialed exlanation head over to their <a href="https://gohugo.io/documentation/">official documentaion</a>. Let&rsquo;s proceed to next step.</p>
+
+<h3 id="github-pages">GitHub Pages</h3>
+
+<p>GitHub offers very nice service of hosting personal or project sites direclty from repository for free. Isn&rsquo;t that neat? You are free to create your page via their provided generators or build yours from scratch. The problem is, this service does not offer you to have both, code and site content stored in same repository if you are only &ldquo;free&rdquo; tier user&hellip; Shame.<br />
+But on the other hand you can have private repos on free tier as well, right? Right!<br />
+So we will take advantage of this and setup our workflow accordingly. Side note, your GitHub Pages repository need to be public on free tier otherwise you will get <code>404</code> and it won&rsquo;t be published by GitHub.</p>
+
+<p>We will start by creating two repositories to store our content. I&rsquo;m assuming you will be building personal page from now on (check <a href="https://pages.github.com/">GitHub Pages</a> for instruction how to setup your organinzation o project page properly). Head over to GitHub and create repository for your page.</p>
+
+<p>GitHub expects it to adhere to certain naming convention to be publicly available and properly published. It need to match this naming convention:</p>
+
+<pre><code>yourGitHubUserName.github.io
+</code></pre>
+
+<p>That way it will know you want to use it as your page. In my case repository name is <code>cupsster.github.io</code> Don&rsquo;t forget to mark it as public. That will be as well your public URL to acces and display your content (assuming you do not want to configure custom domain name for it). If you try that url now, you will most likely get only <code>404</code> as there is nothing commited there right now. More on that later on.</p>
+
+<p>Now create another repository. This time you can set it to private (so our source data is not visible to whole world) and name it anyhow you want. For sake of simplicity you can go with something simple like <code>blog</code> or so.</p>
+
+<p>You should end up with 2 fresh repos, public <code>yourGitHubUserName.github.io</code> and private <code>blog</code>.</p>
+
+<h3 id="project-setup">Project Setup</h3>
+
+<p>It is time to configure our local folder structure to use our repositories. If you are starting from scratch you need to create new dummy Hugo site now. If you already have one saved somewhere else you can skip this step.<br />
+Navigate your terminal in <code>Sites</code> folder created earlier and run:</p>
+
+<pre><code>hugo new site dummySite
+</code></pre>
+
+<p>This will create empty site skeleton in <code>Sites\dummySite</code>, we will need this data for later.<br />
+Still in same <code>Sites</code> folder clone your private repository by running this command.</p>
+
+<pre><code>git clone https://github.com/yourGitHubUserName/blog.git
+</code></pre>
+
+<p>Now enter your cloned repository</p>
+
+<pre><code>cd yourGitHubUserName\
+</code></pre>
+
+<p>Let&rsquo;s assume you already have made new Hugo site somewhere else on file system or you generated <code>dummySite</code> as above. If you generated dummy site your <code>Sites</code> folders should now look something like this:</p>
+
+<pre><code>Directory of D:\HUGO\Sites
+
+08/20/2019  08:59 PM    &lt;DIR&gt;          .
+08/20/2019  08:59 PM    &lt;DIR&gt;          ..
+08/20/2019  07:14 PM    &lt;DIR&gt;          blog
+08/20/2019  07:13 PM    &lt;DIR&gt;          dummySite
+</code></pre>
+
+<p>Head over to <code>dummySite</code> folder and copy it&rsquo;s contents to our clonned <code>blog</code> folder. To get up to speed we are going to add some theme to start with. There is lot of nice <a href="https://themes.gohugo.io/">themes</a> already available so pick one that fit&rsquo;s you the best and we are going to integrate it. I&rsquo;ll be using default xxx as example. But be sure to check theme information about it&rsquo;s specific options to configure to work properly.<br />
+Enter <code>blog</code> folder and add Anake theme as git submodule by running this commands in terminal:</p>
+
+<pre><code>cd blog\
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre>
+
+<p>Now you need to edit <code>config.toml</code> and theme support to it by adding this line:</p>
+
+<pre><code>theme = &quot;ananke&quot;
+</code></pre>
+
+<p>This will tell Hugo to use that theme tmplate for your static pages. It is good time to verify that all is working properly by running this command:</p>
+
+<pre><code>hugo server
+</code></pre>
+
+<p>or if you went with theme support</p>
+
+<pre><code>hugo server -t &quot;ananke&quot;
+</code></pre>
+
+<p><code>-t</code> flag tells Hugo to use specific theme. You can now open your browser and go to <a href="http://localhost:1313/">http://localhost:1313/</a> which is default setting for Hugo server and verify you see webpage.<br />
+If you got it working you can kill server command by pressing <code>Ctrl+C</code> on keyboard. Before we move on it is good time to remove gnerated <code>public</code> as we will replace it in next step with custom solution. Run this in temrinal to delete it, we don&rsquo;t need it for next step:</p>
+
+<pre><code>rm -rf public
+</code></pre>
+
+<p>With generated <code>public</code> folder that contain our static site gone we are going to replace it by another git submodule! Guess which one :)<br />
+Run this command in terminal:</p>
+
+<pre><code>git submodule add -b master git@github.com:yourGitHubUserName/yourGitHubUserName.github.io.git public
+</code></pre>
+
+<p>What we just did was to replace generated static folder with our GitHub Pages submodule! This enables us to split public and private parts of our website/blog to separate repositories and still mainting full git workflow and verioning all while running &ldquo;Free&rdquo; tier on GitHub. Next time you regenerate your site, <code>public</code> foder will get fresh site data that you can commit to your public <code>yourGitHubUserName.github.io</code> repository and rest of your code and content from which it is generated will stay nicely private in your <code>blog</code> repository. Neato! Exactly what we wanted.</p>
+
+<p>You are all set! For ease of manipulation with this structure you can make <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script">handy shell script</a> that will push contents of <code>public</code> folder into your <code>yourGitHubUserName.github.io</code> repository whan you run it with preconfigured commit message when you run it.</p>
+
+<h3 id="content">Content</h3>
+
+<p>Upon configuring yout site and theme setttings in <code>config.toml</code> file to your heart&rsquo;s liking, next thing you want to do is to actually add some new content&hellip; Still in your <code>blog</code> folder run:</p>
+
+<pre><code>hugo new posts/hello-world.md
+</code></pre>
+
+<p>This will create new file in <code>content/posts/hello-world.md</code> that you can edit in your favorite text editor using <strong>modified Hugo markdown syntax</strong>. Notice there is <code>draft: true</code> on top, which is metadata for Hugo to treat this file as draft until you change this value to <code>true</code> which means you are ready to publish this post.<br />
+To preview your site with drafts locally simply run:</p>
+
+<pre><code>hugo server -D
+</code></pre>
+
+<p>or you can launch it in filesystem watch mode</p>
+
+<pre><code>hugo server -D -w
+</code></pre>
+
+<p>this way you can make live changes to your file and Hugo will automatically rebuild site and refresh your browser to reflect your changes.</p>
+
+<p>Ohh did I mention it is <strong>lighting fast</strong>?! Depening on project size it is miliseconds to rebuild site. For fresh projects with not so much content and advanced features it is like 7-12ms for refresh!</p>
+
+<p>Don&rsquo;t forget to comit your changes and content to see your page updated.</p>
+
+<h3 id="done">Done</h3>
+
+<p>Now you can go visit your new <a href="https://yourGitHubUserName.github.io">https://yourGitHubUserName.github.io</a> site and it only took couple of minutes to setup and it is conpletely free while you still having full control over code and content.</p>
+
+<h4 id="personal-note">Personal Note</h4>
+
+<p>What I personaly like on this solution is, that site rebuild is fast, enabling me to see live changes instantly and oh boy (or girl or it) how much I love fact I do not need to deal with sinstalling, yeah you read it right, bloatload of frameworks and software just to get simple thing going!</p>
+
+<p>.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
